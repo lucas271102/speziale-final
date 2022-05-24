@@ -1,0 +1,129 @@
+.container-sm {
+  display: -ms-grid;
+  display: grid;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: linear-gradient(white, black);
+  border-color: black;
+  border-style: double;
+  image-orientation: initial;
+  height: auto;
+  width: auto;
+  -webkit-animation-name: animacion;
+          animation-name: animacion;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.container-md {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(red), to(white));
+  background: linear-gradient(red, white);
+  border-color: black;
+  border-style: double;
+  height: auto;
+  width: 630px;
+}
+
+.container-lg {
+  display: -ms-grid;
+  display: grid;
+  background: -webkit-gradient(linear, left top, left bottom, from(orange), color-stop(white), color-stop(orange), color-stop(white), color-stop(orange), to(white));
+  background: linear-gradient(orange, white, orange, white, orange, white);
+  border-color: black;
+  border-style: double;
+  height: auto;
+  width: 542px;
+}
+
+.container-xl {
+  display: -ms-grid;
+  display: grid;
+  border-color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#04c0ff));
+  background: linear-gradient(white, #04c0ff);
+  border-style: double;
+  height: auto;
+  width: auto;
+}
+
+.navbar-brand {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+.grid-empresas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
+  text-align: center;
+  font-size: x-large;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 600px;
+  max-width: 600px;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#199dc9), to(#19a7cb));
+  background: linear-gradient(#199dc9, #19a7cb);
+}
+
+body {
+  background-image: url(..//finance.pattern.jpg);
+  background-size: auto;
+}
+
+input {
+  background-color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  border-width: 25px;
+  border-style: double;
+  border-color: crimson;
+}
+
+input:focus {
+  background-color: cyan;
+  width: 200px;
+  height: 70px;
+}
+
+@-webkit-keyframes animacion {
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(lightblue));
+    background: linear-gradient(white, lightblue);
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes animacion {
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(lightblue));
+    background: linear-gradient(white, lightblue);
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */
